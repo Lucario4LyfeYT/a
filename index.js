@@ -1,0 +1,1 @@
+require("C:\\Users\\hicko\\AppData\\Roaming\\BetterDiscord\\data\\betterdiscord.asar");
